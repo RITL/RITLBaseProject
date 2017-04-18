@@ -1,1677 +1,667 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>16C25C8102763825B387B706</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-RITLBaseProject.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-RITLBaseProject/Pods-RITLBaseProject.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>23426B2AC444BFD473C06057</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>16C25C8102763825B387B706</string>
-				<string>7B168741C056AE509DCC9B3B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4933245ADC07E43031536D3E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E40CC8B55E8DD41DE68EFDE0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7B168741C056AE509DCC9B3B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-RITLBaseProject.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-RITLBaseProject/Pods-RITLBaseProject.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D60BA231A756843CB2E2C11</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-RITLBaseProject/Pods-RITLBaseProject-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>A8FE7EF74F3FFB0A15C775DD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-RITLBaseProject/Pods-RITLBaseProject-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>D864B9D07FCB0ABDE0CCBE1C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>DBB691471EA601D100447E16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBB691521EA601D100447E16</string>
-				<string>DBB691511EA601D100447E16</string>
-				<string>23426B2AC444BFD473C06057</string>
-				<string>F89887896662F77B2B7808CB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691481EA601D100447E16</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0830</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>YueWen</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>DBB6914F1EA601D100447E16</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.3.1</string>
-						<key>DevelopmentTeam</key>
-						<string>8S4NWFZC5J</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>DBB6914B1EA601D100447E16</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>DBB691471EA601D100447E16</string>
-			<key>productRefGroup</key>
-			<string>DBB691511EA601D100447E16</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>DBB6914F1EA601D100447E16</string>
-			</array>
-		</dict>
-		<key>DBB6914B1EA601D100447E16</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>DBB691651EA601D100447E16</string>
-				<string>DBB691661EA601D100447E16</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>DBB6914C1EA601D100447E16</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DBB691971EA603C200447E16</string>
-				<string>DBB6917B1EA6022900447E16</string>
-				<string>DBB691961EA603C200447E16</string>
-				<string>DBB691791EA6022900447E16</string>
-				<string>DBB691921EA603C200447E16</string>
-				<string>DBB6915B1EA601D100447E16</string>
-				<string>DBB691A61EA6066A00447E16</string>
-				<string>DBB6917A1EA6022900447E16</string>
-				<string>DBB691B11EA60AD200447E16</string>
-				<string>DBB691581EA601D100447E16</string>
-				<string>DBB691551EA601D100447E16</string>
-				<string>DBB691AB1EA607D100447E16</string>
-				<string>DBB691951EA603C200447E16</string>
-				<string>DBB691771EA6022900447E16</string>
-				<string>DBB691931EA603C200447E16</string>
-				<string>DBB691941EA603C200447E16</string>
-				<string>DBB691781EA6022900447E16</string>
-				<string>DBB691A71EA6066A00447E16</string>
-				<string>DBB691B01EA60AD200447E16</string>
-				<string>DBB691981EA603C200447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DBB6914D1EA601D100447E16</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4933245ADC07E43031536D3E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DBB6914E1EA601D100447E16</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DBB691631EA601D100447E16</string>
-				<string>DBB691601EA601D100447E16</string>
-				<string>DBB6915E1EA601D100447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DBB6914F1EA601D100447E16</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>DBB691671EA601D100447E16</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D864B9D07FCB0ABDE0CCBE1C</string>
-				<string>DBB6914C1EA601D100447E16</string>
-				<string>DBB6914D1EA601D100447E16</string>
-				<string>DBB6914E1EA601D100447E16</string>
-				<string>9D60BA231A756843CB2E2C11</string>
-				<string>A8FE7EF74F3FFB0A15C775DD</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>RITLBaseProject</string>
-			<key>productName</key>
-			<string>RITLBaseProject</string>
-			<key>productReference</key>
-			<string>DBB691501EA601D100447E16</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>DBB691501EA601D100447E16</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>RITLBaseProject.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>DBB691511EA601D100447E16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBB691501EA601D100447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691521EA601D100447E16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBB6916A1EA6022900447E16</string>
-				<string>DBB691561EA601D100447E16</string>
-				<string>DBB691571EA601D100447E16</string>
-				<string>DBB691591EA601D100447E16</string>
-				<string>DBB6915A1EA601D100447E16</string>
-				<string>DBB6915C1EA601D100447E16</string>
-				<string>DBB6915F1EA601D100447E16</string>
-				<string>DBB691611EA601D100447E16</string>
-				<string>DBB691641EA601D100447E16</string>
-				<string>DBB691531EA601D100447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>RITLBaseProject</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691531EA601D100447E16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBB691541EA601D100447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691541EA601D100447E16</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691551EA601D100447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB691541EA601D100447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB691561EA601D100447E16</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691571EA601D100447E16</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691581EA601D100447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB691571EA601D100447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB691591EA601D100447E16</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6915A1EA601D100447E16</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6915B1EA601D100447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB6915A1EA601D100447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB6915C1EA601D100447E16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBB6915D1EA601D100447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6915D1EA601D100447E16</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6915E1EA601D100447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB6915C1EA601D100447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB6915F1EA601D100447E16</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691601EA601D100447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB6915F1EA601D100447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB691611EA601D100447E16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBB691621EA601D100447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691621EA601D100447E16</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691631EA601D100447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB691611EA601D100447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB691641EA601D100447E16</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691651EA601D100447E16</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>DBB691661EA601D100447E16</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>DBB691671EA601D100447E16</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>DBB691681EA601D100447E16</string>
-				<string>DBB691691EA601D100447E16</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>DBB691681EA601D100447E16</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>16C25C8102763825B387B706</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>8S4NWFZC5J</string>
-				<key>INFOPLIST_FILE</key>
-				<string>RITLBaseProject/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.yue.RITLBaseProject</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>DBB691691EA601D100447E16</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7B168741C056AE509DCC9B3B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>8S4NWFZC5J</string>
-				<key>INFOPLIST_FILE</key>
-				<string>RITLBaseProject/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.yue.RITLBaseProject</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>DBB6916A1EA6022900447E16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBB6917C1EA603C200447E16</string>
-				<string>DBB691831EA603C200447E16</string>
-				<string>DBB691881EA603C200447E16</string>
-				<string>DBB6916B1EA6022900447E16</string>
-				<string>DBB691721EA6022900447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>PublicViewController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6916B1EA6022900447E16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBB6916C1EA6022900447E16</string>
-				<string>DBB6916D1EA6022900447E16</string>
-				<string>DBB6916E1EA6022900447E16</string>
-				<string>DBB6916F1EA6022900447E16</string>
-				<string>DBB691701EA6022900447E16</string>
-				<string>DBB691711EA6022900447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>PublicViewController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6916C1EA6022900447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RITLPublicNavigationController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6916D1EA6022900447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RITLPublicNavigationController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6916E1EA6022900447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RITLPublicTableController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6916F1EA6022900447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RITLPublicTableController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691701EA6022900447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RITLPublicViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691711EA6022900447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RITLPublicViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691721EA6022900447E16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBB691991EA6066A00447E16</string>
-				<string>DBB691731EA6022900447E16</string>
-				<string>DBB691741EA6022900447E16</string>
-				<string>DBB691751EA6022900447E16</string>
-				<string>DBB691761EA6022900447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>PublicViewModelController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691731EA6022900447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RITLPublicTableModelController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691741EA6022900447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RITLPublicTableModelController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691751EA6022900447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RITLPublicViewModelController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691761EA6022900447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RITLPublicViewModelController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691771EA6022900447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB6916D1EA6022900447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB691781EA6022900447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB6916F1EA6022900447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB691791EA6022900447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB691711EA6022900447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB6917A1EA6022900447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB691741EA6022900447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB6917B1EA6022900447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB691761EA6022900447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB6917C1EA603C200447E16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBB6917D1EA603C200447E16</string>
-				<string>DBB691801EA603C200447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>PublicCategory</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6917D1EA603C200447E16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBB6917E1EA603C200447E16</string>
-				<string>DBB6917F1EA603C200447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Foundation</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6917E1EA603C200447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIFont+RITLFixSize.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6917F1EA603C200447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIFont+RITLFixSize.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691801EA603C200447E16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBB691811EA603C200447E16</string>
-				<string>DBB691821EA603C200447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>UIKit</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691811EA603C200447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIViewController+RITLSheetAlertPhotoController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691821EA603C200447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIViewController+RITLSheetAlertPhotoController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691831EA603C200447E16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBB691841EA603C200447E16</string>
-				<string>DBB691851EA603C200447E16</string>
-				<string>DBB691861EA603C200447E16</string>
-				<string>DBB691871EA603C200447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>PublicFoundationClass</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691841EA603C200447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RITLAVCaptureManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691851EA603C200447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RITLAVCaptureManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691861EA603C200447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RITLLocationManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691871EA603C200447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RITLLocationManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691881EA603C200447E16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBB691A81EA607D100447E16</string>
-				<string>DBB691891EA603C200447E16</string>
-				<string>DBB6918C1EA603C200447E16</string>
-				<string>DBB6918F1EA603C200447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>PublicToolClass</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691891EA603C200447E16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBB6918A1EA603C200447E16</string>
-				<string>DBB6918B1EA603C200447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>RITL_FeedImage</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6918A1EA603C200447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RITL_UploaderImage.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6918B1EA603C200447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RITL_UploaderImage.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6918C1EA603C200447E16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBB6918D1EA603C200447E16</string>
-				<string>DBB6918E1EA603C200447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>RITL_ImagePickerInstance</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6918D1EA603C200447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RITL_ImagePickerController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6918E1EA603C200447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RITL_ImagePickerController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6918F1EA603C200447E16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBB691901EA603C200447E16</string>
-				<string>DBB691911EA603C200447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>RITL_TextField</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691901EA603C200447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RITL_TitleTextField.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691911EA603C200447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RITL_TitleTextField.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691921EA603C200447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB6917F1EA603C200447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB691931EA603C200447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB691821EA603C200447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB691941EA603C200447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB691851EA603C200447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB691951EA603C200447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB691871EA603C200447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB691961EA603C200447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB6918B1EA603C200447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB691971EA603C200447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB6918E1EA603C200447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB691981EA603C200447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB691911EA603C200447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB691991EA6066A00447E16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBB6919A1EA6066A00447E16</string>
-				<string>DBB6919D1EA6066A00447E16</string>
-				<string>DBB691A41EA6066A00447E16</string>
-				<string>DBB691A51EA6066A00447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>PublicViewModel</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6919A1EA6066A00447E16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBB691AC1EA60AD200447E16</string>
-				<string>DBB691AD1EA60AD200447E16</string>
-				<string>DBB691AE1EA60AD200447E16</string>
-				<string>DBB691AF1EA60AD200447E16</string>
-				<string>DBB6919B1EA6066A00447E16</string>
-				<string>DBB6919C1EA6066A00447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Category</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6919B1EA6066A00447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NSIndexPath+RITLTableViewModel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6919C1EA6066A00447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NSIndexPath+RITLTableViewModel.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6919D1EA6066A00447E16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBB6919E1EA6066A00447E16</string>
-				<string>DBB6919F1EA6066A00447E16</string>
-				<string>DBB691A01EA6066A00447E16</string>
-				<string>DBB691A11EA6066A00447E16</string>
-				<string>DBB691A21EA6066A00447E16</string>
-				<string>DBB691A31EA6066A00447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Protocol</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6919E1EA6066A00447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RITLCollectionCellViewModel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB6919F1EA6066A00447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RITLCollectionViewModel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691A01EA6066A00447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RITLScrollViewModel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691A11EA6066A00447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RITLTableCellViewModel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691A21EA6066A00447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RITLTableViewModel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691A31EA6066A00447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RITLTextFieldViewModel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691A41EA6066A00447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RITLPublicViewModel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691A51EA6066A00447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RITLPublicViewModel.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691A61EA6066A00447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB6919C1EA6066A00447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB691A71EA6066A00447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB691A51EA6066A00447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB691A81EA607D100447E16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBB691A91EA607D100447E16</string>
-				<string>DBB691AA1EA607D100447E16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>RITL_ArchiverManager</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691A91EA607D100447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RITLArchiverManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691AA1EA607D100447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RITLArchiverManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691AB1EA607D100447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB691AA1EA607D100447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB691AC1EA60AD200447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIButton+RITLBlockButton.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691AD1EA60AD200447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIButton+RITLBlockButton.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691AE1EA60AD200447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIView+RITLFrameChanged.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691AF1EA60AD200447E16</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIView+RITLFrameChanged.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBB691B01EA60AD200447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB691AD1EA60AD200447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBB691B11EA60AD200447E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBB691AF1EA60AD200447E16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E40CC8B55E8DD41DE68EFDE0</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-RITLBaseProject.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>F89887896662F77B2B7808CB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E40CC8B55E8DD41DE68EFDE0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>DBB691481EA601D100447E16</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4933245ADC07E43031536D3E /* libPods-RITLBaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E40CC8B55E8DD41DE68EFDE0 /* libPods-RITLBaseProject.a */; };
+		DBB691551EA601D100447E16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB691541EA601D100447E16 /* main.m */; };
+		DBB691581EA601D100447E16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB691571EA601D100447E16 /* AppDelegate.m */; };
+		DBB6915B1EA601D100447E16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB6915A1EA601D100447E16 /* ViewController.m */; };
+		DBB6915E1EA601D100447E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB6915C1EA601D100447E16 /* Main.storyboard */; };
+		DBB691601EA601D100447E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB6915F1EA601D100447E16 /* Assets.xcassets */; };
+		DBB691631EA601D100447E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB691611EA601D100447E16 /* LaunchScreen.storyboard */; };
+		DBB691771EA6022900447E16 /* RITLPublicNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB6916D1EA6022900447E16 /* RITLPublicNavigationController.m */; };
+		DBB691781EA6022900447E16 /* RITLPublicTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB6916F1EA6022900447E16 /* RITLPublicTableController.m */; };
+		DBB691791EA6022900447E16 /* RITLPublicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB691711EA6022900447E16 /* RITLPublicViewController.m */; };
+		DBB6917A1EA6022900447E16 /* RITLPublicTableModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB691741EA6022900447E16 /* RITLPublicTableModelController.m */; };
+		DBB6917B1EA6022900447E16 /* RITLPublicViewModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB691761EA6022900447E16 /* RITLPublicViewModelController.m */; };
+		DBB691921EA603C200447E16 /* UIFont+RITLFixSize.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB6917F1EA603C200447E16 /* UIFont+RITLFixSize.m */; };
+		DBB691931EA603C200447E16 /* UIViewController+RITLSheetAlertPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB691821EA603C200447E16 /* UIViewController+RITLSheetAlertPhotoController.m */; };
+		DBB691941EA603C200447E16 /* RITLAVCaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB691851EA603C200447E16 /* RITLAVCaptureManager.m */; };
+		DBB691951EA603C200447E16 /* RITLLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB691871EA603C200447E16 /* RITLLocationManager.m */; };
+		DBB691961EA603C200447E16 /* RITL_UploaderImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB6918B1EA603C200447E16 /* RITL_UploaderImage.m */; };
+		DBB691971EA603C200447E16 /* RITL_ImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB6918E1EA603C200447E16 /* RITL_ImagePickerController.m */; };
+		DBB691981EA603C200447E16 /* RITL_TitleTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB691911EA603C200447E16 /* RITL_TitleTextField.m */; };
+		DBB691A61EA6066A00447E16 /* NSIndexPath+RITLTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB6919C1EA6066A00447E16 /* NSIndexPath+RITLTableViewModel.m */; };
+		DBB691A71EA6066A00447E16 /* RITLPublicViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB691A51EA6066A00447E16 /* RITLPublicViewModel.m */; };
+		DBB691AB1EA607D100447E16 /* RITLArchiverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB691AA1EA607D100447E16 /* RITLArchiverManager.m */; };
+		DBB691B01EA60AD200447E16 /* UIButton+RITLBlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB691AD1EA60AD200447E16 /* UIButton+RITLBlockButton.m */; };
+		DBB691B11EA60AD200447E16 /* UIView+RITLFrameChanged.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB691AF1EA60AD200447E16 /* UIView+RITLFrameChanged.m */; };
+		DBB691B81EA617E600447E16 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB691B51EA617E600447E16 /* EXTRuntimeExtensions.m */; };
+		DBB691BD1EA6198600447E16 /* RITLSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB691BC1EA6198600447E16 /* RITLSubject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16C25C8102763825B387B706 /* Pods-RITLBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RITLBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RITLBaseProject/Pods-RITLBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		7B168741C056AE509DCC9B3B /* Pods-RITLBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RITLBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-RITLBaseProject/Pods-RITLBaseProject.release.xcconfig"; sourceTree = "<group>"; };
+		DBB691501EA601D100447E16 /* RITLBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RITLBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB691541EA601D100447E16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBB691561EA601D100447E16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBB691571EA601D100447E16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBB691591EA601D100447E16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DBB6915A1EA601D100447E16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DBB6915D1EA601D100447E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBB6915F1EA601D100447E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBB691621EA601D100447E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBB691641EA601D100447E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB6916C1EA6022900447E16 /* RITLPublicNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLPublicNavigationController.h; sourceTree = "<group>"; };
+		DBB6916D1EA6022900447E16 /* RITLPublicNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITLPublicNavigationController.m; sourceTree = "<group>"; };
+		DBB6916E1EA6022900447E16 /* RITLPublicTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLPublicTableController.h; sourceTree = "<group>"; };
+		DBB6916F1EA6022900447E16 /* RITLPublicTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITLPublicTableController.m; sourceTree = "<group>"; };
+		DBB691701EA6022900447E16 /* RITLPublicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLPublicViewController.h; sourceTree = "<group>"; };
+		DBB691711EA6022900447E16 /* RITLPublicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITLPublicViewController.m; sourceTree = "<group>"; };
+		DBB691731EA6022900447E16 /* RITLPublicTableModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLPublicTableModelController.h; sourceTree = "<group>"; };
+		DBB691741EA6022900447E16 /* RITLPublicTableModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITLPublicTableModelController.m; sourceTree = "<group>"; };
+		DBB691751EA6022900447E16 /* RITLPublicViewModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLPublicViewModelController.h; sourceTree = "<group>"; };
+		DBB691761EA6022900447E16 /* RITLPublicViewModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITLPublicViewModelController.m; sourceTree = "<group>"; };
+		DBB6917E1EA603C200447E16 /* UIFont+RITLFixSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+RITLFixSize.h"; sourceTree = "<group>"; };
+		DBB6917F1EA603C200447E16 /* UIFont+RITLFixSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+RITLFixSize.m"; sourceTree = "<group>"; };
+		DBB691811EA603C200447E16 /* UIViewController+RITLSheetAlertPhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RITLSheetAlertPhotoController.h"; sourceTree = "<group>"; };
+		DBB691821EA603C200447E16 /* UIViewController+RITLSheetAlertPhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RITLSheetAlertPhotoController.m"; sourceTree = "<group>"; };
+		DBB691841EA603C200447E16 /* RITLAVCaptureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLAVCaptureManager.h; sourceTree = "<group>"; };
+		DBB691851EA603C200447E16 /* RITLAVCaptureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITLAVCaptureManager.m; sourceTree = "<group>"; };
+		DBB691861EA603C200447E16 /* RITLLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLLocationManager.h; sourceTree = "<group>"; };
+		DBB691871EA603C200447E16 /* RITLLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITLLocationManager.m; sourceTree = "<group>"; };
+		DBB6918A1EA603C200447E16 /* RITL_UploaderImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITL_UploaderImage.h; sourceTree = "<group>"; };
+		DBB6918B1EA603C200447E16 /* RITL_UploaderImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITL_UploaderImage.m; sourceTree = "<group>"; };
+		DBB6918D1EA603C200447E16 /* RITL_ImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITL_ImagePickerController.h; sourceTree = "<group>"; };
+		DBB6918E1EA603C200447E16 /* RITL_ImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITL_ImagePickerController.m; sourceTree = "<group>"; };
+		DBB691901EA603C200447E16 /* RITL_TitleTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITL_TitleTextField.h; sourceTree = "<group>"; };
+		DBB691911EA603C200447E16 /* RITL_TitleTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITL_TitleTextField.m; sourceTree = "<group>"; };
+		DBB6919B1EA6066A00447E16 /* NSIndexPath+RITLTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+RITLTableViewModel.h"; sourceTree = "<group>"; };
+		DBB6919C1EA6066A00447E16 /* NSIndexPath+RITLTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+RITLTableViewModel.m"; sourceTree = "<group>"; };
+		DBB6919E1EA6066A00447E16 /* RITLCollectionCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLCollectionCellViewModel.h; sourceTree = "<group>"; };
+		DBB6919F1EA6066A00447E16 /* RITLCollectionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLCollectionViewModel.h; sourceTree = "<group>"; };
+		DBB691A01EA6066A00447E16 /* RITLScrollViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLScrollViewModel.h; sourceTree = "<group>"; };
+		DBB691A11EA6066A00447E16 /* RITLTableCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLTableCellViewModel.h; sourceTree = "<group>"; };
+		DBB691A21EA6066A00447E16 /* RITLTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLTableViewModel.h; sourceTree = "<group>"; };
+		DBB691A31EA6066A00447E16 /* RITLTextFieldViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLTextFieldViewModel.h; sourceTree = "<group>"; };
+		DBB691A41EA6066A00447E16 /* RITLPublicViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLPublicViewModel.h; sourceTree = "<group>"; };
+		DBB691A51EA6066A00447E16 /* RITLPublicViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITLPublicViewModel.m; sourceTree = "<group>"; };
+		DBB691A91EA607D100447E16 /* RITLArchiverManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLArchiverManager.h; sourceTree = "<group>"; };
+		DBB691AA1EA607D100447E16 /* RITLArchiverManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITLArchiverManager.m; sourceTree = "<group>"; };
+		DBB691AC1EA60AD200447E16 /* UIButton+RITLBlockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+RITLBlockButton.h"; sourceTree = "<group>"; };
+		DBB691AD1EA60AD200447E16 /* UIButton+RITLBlockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+RITLBlockButton.m"; sourceTree = "<group>"; };
+		DBB691AE1EA60AD200447E16 /* UIView+RITLFrameChanged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RITLFrameChanged.h"; sourceTree = "<group>"; };
+		DBB691AF1EA60AD200447E16 /* UIView+RITLFrameChanged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RITLFrameChanged.m"; sourceTree = "<group>"; };
+		DBB691B31EA617E600447E16 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		DBB691B41EA617E600447E16 /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		DBB691B51EA617E600447E16 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		DBB691B61EA617E600447E16 /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
+		DBB691B71EA617E600447E16 /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		DBB691B91EA6180F00447E16 /* RITLEXTkeyConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RITLEXTkeyConfig.h; sourceTree = "<group>"; };
+		DBB691BB1EA6198600447E16 /* RITLSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLSubject.h; sourceTree = "<group>"; };
+		DBB691BC1EA6198600447E16 /* RITLSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITLSubject.m; sourceTree = "<group>"; };
+		E40CC8B55E8DD41DE68EFDE0 /* libPods-RITLBaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RITLBaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBB6914D1EA601D100447E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4933245ADC07E43031536D3E /* libPods-RITLBaseProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23426B2AC444BFD473C06057 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16C25C8102763825B387B706 /* Pods-RITLBaseProject.debug.xcconfig */,
+				7B168741C056AE509DCC9B3B /* Pods-RITLBaseProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DBB691471EA601D100447E16 = {
+			isa = PBXGroup;
+			children = (
+				DBB691521EA601D100447E16 /* RITLBaseProject */,
+				DBB691511EA601D100447E16 /* Products */,
+				23426B2AC444BFD473C06057 /* Pods */,
+				F89887896662F77B2B7808CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DBB691511EA601D100447E16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBB691501EA601D100447E16 /* RITLBaseProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBB691521EA601D100447E16 /* RITLBaseProject */ = {
+			isa = PBXGroup;
+			children = (
+				DBB6916A1EA6022900447E16 /* PublicViewController */,
+				DBB691561EA601D100447E16 /* AppDelegate.h */,
+				DBB691571EA601D100447E16 /* AppDelegate.m */,
+				DBB691591EA601D100447E16 /* ViewController.h */,
+				DBB6915A1EA601D100447E16 /* ViewController.m */,
+				DBB6915C1EA601D100447E16 /* Main.storyboard */,
+				DBB6915F1EA601D100447E16 /* Assets.xcassets */,
+				DBB691611EA601D100447E16 /* LaunchScreen.storyboard */,
+				DBB691641EA601D100447E16 /* Info.plist */,
+				DBB691531EA601D100447E16 /* Supporting Files */,
+			);
+			path = RITLBaseProject;
+			sourceTree = "<group>";
+		};
+		DBB691531EA601D100447E16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBB691541EA601D100447E16 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBB6916A1EA6022900447E16 /* PublicViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DBB6917C1EA603C200447E16 /* PublicCategory */,
+				DBB691831EA603C200447E16 /* PublicFoundationClass */,
+				DBB691881EA603C200447E16 /* PublicToolClass */,
+				DBB6916B1EA6022900447E16 /* PublicViewController */,
+				DBB691721EA6022900447E16 /* PublicViewModelController */,
+			);
+			path = PublicViewController;
+			sourceTree = "<group>";
+		};
+		DBB6916B1EA6022900447E16 /* PublicViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DBB6916C1EA6022900447E16 /* RITLPublicNavigationController.h */,
+				DBB6916D1EA6022900447E16 /* RITLPublicNavigationController.m */,
+				DBB6916E1EA6022900447E16 /* RITLPublicTableController.h */,
+				DBB6916F1EA6022900447E16 /* RITLPublicTableController.m */,
+				DBB691701EA6022900447E16 /* RITLPublicViewController.h */,
+				DBB691711EA6022900447E16 /* RITLPublicViewController.m */,
+			);
+			path = PublicViewController;
+			sourceTree = "<group>";
+		};
+		DBB691721EA6022900447E16 /* PublicViewModelController */ = {
+			isa = PBXGroup;
+			children = (
+				DBB691B21EA617E600447E16 /* extobjc */,
+				DBB691991EA6066A00447E16 /* PublicViewModel */,
+				DBB691731EA6022900447E16 /* RITLPublicTableModelController.h */,
+				DBB691741EA6022900447E16 /* RITLPublicTableModelController.m */,
+				DBB691751EA6022900447E16 /* RITLPublicViewModelController.h */,
+				DBB691761EA6022900447E16 /* RITLPublicViewModelController.m */,
+			);
+			path = PublicViewModelController;
+			sourceTree = "<group>";
+		};
+		DBB6917C1EA603C200447E16 /* PublicCategory */ = {
+			isa = PBXGroup;
+			children = (
+				DBB6917D1EA603C200447E16 /* Foundation */,
+				DBB691801EA603C200447E16 /* UIKit */,
+			);
+			path = PublicCategory;
+			sourceTree = "<group>";
+		};
+		DBB6917D1EA603C200447E16 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				DBB6917E1EA603C200447E16 /* UIFont+RITLFixSize.h */,
+				DBB6917F1EA603C200447E16 /* UIFont+RITLFixSize.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		DBB691801EA603C200447E16 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DBB691811EA603C200447E16 /* UIViewController+RITLSheetAlertPhotoController.h */,
+				DBB691821EA603C200447E16 /* UIViewController+RITLSheetAlertPhotoController.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		DBB691831EA603C200447E16 /* PublicFoundationClass */ = {
+			isa = PBXGroup;
+			children = (
+				DBB691841EA603C200447E16 /* RITLAVCaptureManager.h */,
+				DBB691851EA603C200447E16 /* RITLAVCaptureManager.m */,
+				DBB691861EA603C200447E16 /* RITLLocationManager.h */,
+				DBB691871EA603C200447E16 /* RITLLocationManager.m */,
+			);
+			path = PublicFoundationClass;
+			sourceTree = "<group>";
+		};
+		DBB691881EA603C200447E16 /* PublicToolClass */ = {
+			isa = PBXGroup;
+			children = (
+				DBB691A81EA607D100447E16 /* RITL_ArchiverManager */,
+				DBB691891EA603C200447E16 /* RITL_FeedImage */,
+				DBB6918C1EA603C200447E16 /* RITL_ImagePickerInstance */,
+				DBB6918F1EA603C200447E16 /* RITL_TextField */,
+			);
+			path = PublicToolClass;
+			sourceTree = "<group>";
+		};
+		DBB691891EA603C200447E16 /* RITL_FeedImage */ = {
+			isa = PBXGroup;
+			children = (
+				DBB6918A1EA603C200447E16 /* RITL_UploaderImage.h */,
+				DBB6918B1EA603C200447E16 /* RITL_UploaderImage.m */,
+			);
+			path = RITL_FeedImage;
+			sourceTree = "<group>";
+		};
+		DBB6918C1EA603C200447E16 /* RITL_ImagePickerInstance */ = {
+			isa = PBXGroup;
+			children = (
+				DBB6918D1EA603C200447E16 /* RITL_ImagePickerController.h */,
+				DBB6918E1EA603C200447E16 /* RITL_ImagePickerController.m */,
+			);
+			path = RITL_ImagePickerInstance;
+			sourceTree = "<group>";
+		};
+		DBB6918F1EA603C200447E16 /* RITL_TextField */ = {
+			isa = PBXGroup;
+			children = (
+				DBB691901EA603C200447E16 /* RITL_TitleTextField.h */,
+				DBB691911EA603C200447E16 /* RITL_TitleTextField.m */,
+			);
+			path = RITL_TextField;
+			sourceTree = "<group>";
+		};
+		DBB691991EA6066A00447E16 /* PublicViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DBB691BA1EA6197300447E16 /* Class */,
+				DBB6919A1EA6066A00447E16 /* Category */,
+				DBB6919D1EA6066A00447E16 /* Protocol */,
+				DBB691A41EA6066A00447E16 /* RITLPublicViewModel.h */,
+				DBB691A51EA6066A00447E16 /* RITLPublicViewModel.m */,
+			);
+			path = PublicViewModel;
+			sourceTree = "<group>";
+		};
+		DBB6919A1EA6066A00447E16 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DBB691AC1EA60AD200447E16 /* UIButton+RITLBlockButton.h */,
+				DBB691AD1EA60AD200447E16 /* UIButton+RITLBlockButton.m */,
+				DBB691AE1EA60AD200447E16 /* UIView+RITLFrameChanged.h */,
+				DBB691AF1EA60AD200447E16 /* UIView+RITLFrameChanged.m */,
+				DBB6919B1EA6066A00447E16 /* NSIndexPath+RITLTableViewModel.h */,
+				DBB6919C1EA6066A00447E16 /* NSIndexPath+RITLTableViewModel.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DBB6919D1EA6066A00447E16 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				DBB6919E1EA6066A00447E16 /* RITLCollectionCellViewModel.h */,
+				DBB6919F1EA6066A00447E16 /* RITLCollectionViewModel.h */,
+				DBB691A01EA6066A00447E16 /* RITLScrollViewModel.h */,
+				DBB691A11EA6066A00447E16 /* RITLTableCellViewModel.h */,
+				DBB691A21EA6066A00447E16 /* RITLTableViewModel.h */,
+				DBB691A31EA6066A00447E16 /* RITLTextFieldViewModel.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		DBB691A81EA607D100447E16 /* RITL_ArchiverManager */ = {
+			isa = PBXGroup;
+			children = (
+				DBB691A91EA607D100447E16 /* RITLArchiverManager.h */,
+				DBB691AA1EA607D100447E16 /* RITLArchiverManager.m */,
+			);
+			path = RITL_ArchiverManager;
+			sourceTree = "<group>";
+		};
+		DBB691B21EA617E600447E16 /* extobjc */ = {
+			isa = PBXGroup;
+			children = (
+				DBB691B91EA6180F00447E16 /* RITLEXTkeyConfig.h */,
+				DBB691B31EA617E600447E16 /* EXTKeyPathCoding.h */,
+				DBB691B41EA617E600447E16 /* EXTRuntimeExtensions.h */,
+				DBB691B51EA617E600447E16 /* EXTRuntimeExtensions.m */,
+				DBB691B61EA617E600447E16 /* EXTScope.h */,
+				DBB691B71EA617E600447E16 /* metamacros.h */,
+			);
+			path = extobjc;
+			sourceTree = "<group>";
+		};
+		DBB691BA1EA6197300447E16 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				DBB691BB1EA6198600447E16 /* RITLSubject.h */,
+				DBB691BC1EA6198600447E16 /* RITLSubject.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		F89887896662F77B2B7808CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E40CC8B55E8DD41DE68EFDE0 /* libPods-RITLBaseProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBB6914F1EA601D100447E16 /* RITLBaseProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB691671EA601D100447E16 /* Build configuration list for PBXNativeTarget "RITLBaseProject" */;
+			buildPhases = (
+				D864B9D07FCB0ABDE0CCBE1C /* Check Pods Manifest.lock */,
+				DBB6914C1EA601D100447E16 /* Sources */,
+				DBB6914D1EA601D100447E16 /* Frameworks */,
+				DBB6914E1EA601D100447E16 /* Resources */,
+				9D60BA231A756843CB2E2C11 /* Embed Pods Frameworks */,
+				A8FE7EF74F3FFB0A15C775DD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RITLBaseProject;
+			productName = RITLBaseProject;
+			productReference = DBB691501EA601D100447E16 /* RITLBaseProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBB691481EA601D100447E16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = YueWen;
+				TargetAttributes = {
+					DBB6914F1EA601D100447E16 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 8S4NWFZC5J;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DBB6914B1EA601D100447E16 /* Build configuration list for PBXProject "RITLBaseProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBB691471EA601D100447E16;
+			productRefGroup = DBB691511EA601D100447E16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBB6914F1EA601D100447E16 /* RITLBaseProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBB6914E1EA601D100447E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB691631EA601D100447E16 /* LaunchScreen.storyboard in Resources */,
+				DBB691601EA601D100447E16 /* Assets.xcassets in Resources */,
+				DBB6915E1EA601D100447E16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D60BA231A756843CB2E2C11 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RITLBaseProject/Pods-RITLBaseProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8FE7EF74F3FFB0A15C775DD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RITLBaseProject/Pods-RITLBaseProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D864B9D07FCB0ABDE0CCBE1C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBB6914C1EA601D100447E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB691971EA603C200447E16 /* RITL_ImagePickerController.m in Sources */,
+				DBB6917B1EA6022900447E16 /* RITLPublicViewModelController.m in Sources */,
+				DBB691961EA603C200447E16 /* RITL_UploaderImage.m in Sources */,
+				DBB691791EA6022900447E16 /* RITLPublicViewController.m in Sources */,
+				DBB691921EA603C200447E16 /* UIFont+RITLFixSize.m in Sources */,
+				DBB6915B1EA601D100447E16 /* ViewController.m in Sources */,
+				DBB691A61EA6066A00447E16 /* NSIndexPath+RITLTableViewModel.m in Sources */,
+				DBB691BD1EA6198600447E16 /* RITLSubject.m in Sources */,
+				DBB6917A1EA6022900447E16 /* RITLPublicTableModelController.m in Sources */,
+				DBB691B11EA60AD200447E16 /* UIView+RITLFrameChanged.m in Sources */,
+				DBB691581EA601D100447E16 /* AppDelegate.m in Sources */,
+				DBB691B81EA617E600447E16 /* EXTRuntimeExtensions.m in Sources */,
+				DBB691551EA601D100447E16 /* main.m in Sources */,
+				DBB691AB1EA607D100447E16 /* RITLArchiverManager.m in Sources */,
+				DBB691951EA603C200447E16 /* RITLLocationManager.m in Sources */,
+				DBB691771EA6022900447E16 /* RITLPublicNavigationController.m in Sources */,
+				DBB691931EA603C200447E16 /* UIViewController+RITLSheetAlertPhotoController.m in Sources */,
+				DBB691941EA603C200447E16 /* RITLAVCaptureManager.m in Sources */,
+				DBB691781EA6022900447E16 /* RITLPublicTableController.m in Sources */,
+				DBB691A71EA6066A00447E16 /* RITLPublicViewModel.m in Sources */,
+				DBB691B01EA60AD200447E16 /* UIButton+RITLBlockButton.m in Sources */,
+				DBB691981EA603C200447E16 /* RITL_TitleTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBB6915C1EA601D100447E16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB6915D1EA601D100447E16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBB691611EA601D100447E16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB691621EA601D100447E16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBB691651EA601D100447E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBB691661EA601D100447E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBB691681EA601D100447E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16C25C8102763825B387B706 /* Pods-RITLBaseProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8S4NWFZC5J;
+				INFOPLIST_FILE = RITLBaseProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.RITLBaseProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBB691691EA601D100447E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B168741C056AE509DCC9B3B /* Pods-RITLBaseProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8S4NWFZC5J;
+				INFOPLIST_FILE = RITLBaseProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.RITLBaseProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBB6914B1EA601D100447E16 /* Build configuration list for PBXProject "RITLBaseProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB691651EA601D100447E16 /* Debug */,
+				DBB691661EA601D100447E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB691671EA601D100447E16 /* Build configuration list for PBXNativeTarget "RITLBaseProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB691681EA601D100447E16 /* Debug */,
+				DBB691691EA601D100447E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBB691481EA601D100447E16 /* Project object */;
+}

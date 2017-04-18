@@ -31,17 +31,19 @@
 
 -(void)ritl_bindViewModel
 {
-//    @weakify(self);
-//    
+    @weakify(self);
+//
 //    //开始加载
-//    [self.viewModel.requestBeginSubject subscribeNext:^(id x) {
-//       
-//        @strongify(self);
-//        
+    [self.viewModel.ritl_requestBeginSubject ritl_subscribeNext:^(id x) {
+       
+        @strongify(self);
+        
 //        [MBProgressHUD showHUDAddedTo:self.view animated:true];
-//        
-//    }];
-//    
+        
+    }];
+    
+//    self.viewModel.ritl_title
+//
 //    //结束加载
 //    [self.viewModel.requestEndSubject subscribeNext:^(id x) {
 //        

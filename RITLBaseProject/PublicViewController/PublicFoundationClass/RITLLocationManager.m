@@ -3,7 +3,7 @@
 //  CityBao
 //
 //  Created by YueWen on 16/9/1.
-//  Copyright © 2016年 wangpj. All rights reserved.
+//  Copyright © 2016年 YueWen. All rights reserved.
 //
 
 #import "RITLLocationManager.h"

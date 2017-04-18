@@ -61,8 +61,9 @@
         //如果后缀是Subject
         if ([propertyName hasSuffix:@"Subject"])
         {
+
             //进行KVC赋值
-//            [self setValue:[RACSubject subject] forKey:propertyName];
+            [self setValue:[RITLSubject new] forKey:propertyName];
         }
         
     }

@@ -13,12 +13,13 @@
 #import "RITLTableViewModel.h"
 #import "RITLCollectionViewModel.h"
 #import "RITLTextFieldViewModel.h"
-
-
+#import "RITLEXTkeyConfig.h"
+#import "RITLSubject.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-/// 使用RACSubject变量请以Subject结尾，使用runtime自动初始化
+
+/// 使用RITLSubject变量请以Subject结尾，使用runtime自动初始化
 
 /// 公共ViewModel的超类
 @interface RITLPublicViewModel : NSObject
@@ -27,28 +28,28 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy)NSString * ritl_title;
 
 ///// 请求开始的信号量
-//@property (nonatomic, strong) RACSubject * requestBeginSubject;
+@property (nonatomic, strong) RITLSubject *ritl_requestBeginSubject;
 //
 ///// 请求结束的信号量
-//@property (nonatomic, strong) RACSubject * requestEndSubject;
+@property (nonatomic, strong) RITLSubject *ritl_requestEndSubject;
 //
 ///// 请求完成的信号量
-//@property (nonatomic, strong) RACSubject * requestCompeteSubject;
+@property (nonatomic, strong) RITLSubject *ritl_requestCompeteSubject;
 //
 ///// 请求失败的信号量
-//@property (nonatomic, strong) RACSubject * requestFailSubject;
+@property (nonatomic, strong) RITLSubject *ritl_requestFailSubject;
 //
 ///// ARC下的控制器弹跳
-//@property (nonatomic, strong) RACSubject * arc_ControllerSubject;
+@property (nonatomic, strong) RITLSubject *ritl_arc_ControllerSubject;
 //
 ///// MRC下的控制器弹跳
-//@property (nonatomic, strong) RACSubject * mrc_ControllerSubject;
+@property (nonatomic, strong) RITLSubject *ritl_mrc_ControllerSubject;
 //
 ///// 模态弹出的控制器
-//@property (nonatomic, strong) RACSubject * shouldDismissSubject;
+@property (nonatomic, strong) RITLSubject *ritl_shouldDismissSubject;
 //
 ///// alert
-//@property (nonatomic, strong) RACSubject * warnSubject;
+@property (nonatomic, strong) RITLSubject *ritl_warnSubject;
 
 
 /**

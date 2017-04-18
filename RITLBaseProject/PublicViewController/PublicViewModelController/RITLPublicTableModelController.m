@@ -30,31 +30,31 @@
 
 -(void)ritl_bindViewModel
 {
-//    @weakify(self);
-//    
-//    //开始加载
-//    [self.viewModel.requestBeginSubject subscribeNext:^(id x) {
-//
-//        
-//    }];
-//    
-//    //结束加载
-//    [self.viewModel.requestEndSubject subscribeNext:^(id x) {
-//        
-//        @strongify(self);
-//        
-//        //结束上拉下拉刷新
-//        [self stopHeaderFresh];
-//        [self stopFooterFresh];
-//    }];
-//    
-//    //出错误
-//    [self.viewModel.requestFailSubject subscribeNext:^(id x) {
-//        
-//        @strongify(self);
-//        
-//        [self presentShowAlertControllerWithErrorMessage:x handle:nil];
-//    }];
+    @weakify(self);
+    
+    //开始加载
+    [self.viewModel.ritl_requestBeginSubject ritl_subscribeNext:^(id x) {
+
+        
+    }];
+    
+    //结束加载
+    [self.viewModel.ritl_requestEndSubject ritl_subscribeNext:^(id x) {
+        
+        @strongify(self);
+        
+        //结束上拉下拉刷新
+        [self stopHeaderFresh];
+        [self stopFooterFresh];
+    }];
+    
+    //出错误
+    [self.viewModel.ritl_requestFailSubject ritl_subscribeNext:^(id x) {
+        
+        @strongify(self);
+        
+        [self presentShowAlertControllerWithErrorMessage:x handle:nil];
+    }];
 }
 
 @end

@@ -1,9 +1,9 @@
 //
 //  UIViewController+RITLSheetAlertPhotoController
-//  yuyetong
+//  Yuexiaowen
 //
 //  Created by YueWen on 2017/3/27.
-//  Copyright © 2017年 ztld. All rights reserved.
+//  Copyright © 2017年 YueWen. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
