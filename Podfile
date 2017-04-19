@@ -3,5 +3,5 @@ platform :ios, '8.0'
 
 target 'RITLBaseProject' do
 pod 'MJRefresh', '~> 3.0.7'
-pod 'AFNetworking'
+pod 'AFNetworking', '~> 3.0.0-beta.3'
 end
